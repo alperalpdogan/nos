@@ -1,0 +1,13 @@
+@model ProductNosModel
+
+@if(Model.NumberOfSales > 0)
+{
+    @if (Model.NumberOfMonths == 1)
+    {
+        <p>@T("Plugins.Widgets.Nos.SoldInLastMonth", Model.NumberOfSales)</p>
+    }
+    else
+    {
+        <p>@T("Plugins.Widgets.Nos.SalesInNumberOfMonths", Model.NumberOfSales, Model.NumberOfMonths)</p>
+    }
+}

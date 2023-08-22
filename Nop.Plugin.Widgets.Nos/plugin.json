@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "Number Of Sales",
+  "SystemName": "Widgets.Nos",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.60" ],
+  "Author": "Alper Alpdoğan",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.Nos.dll",
+  "Description": "This plugin will show the number of sales in product page"
+}
